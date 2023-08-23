@@ -37,8 +37,8 @@ class ModelTrainer:
                 test_array[:,-1]
             )
             models = {
-                "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
+                "Random Forest": RandomForestRegressor(),                
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
                 "XGBRegressor": XGBRegressor(),
